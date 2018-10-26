@@ -1,0 +1,14 @@
+
+iframe{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* ウィンドウとゲーム画面のすき間をなくす */
+body {
+	padding: 0;
+	margin: 0;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}

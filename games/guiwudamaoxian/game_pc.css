@@ -1,0 +1,6 @@
+/* PC版の場合はサイズ制限があるので */
+#enchant-stage{
+	width:400px;
+	height:600px;
+	margin:0 auto 0 auto;
+}

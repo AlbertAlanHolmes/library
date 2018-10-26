@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rooms>
+    <room id="203">
+        <value>普通套房</value>
+        <money>$5000</money>
+    </room>
+       <room id="204">
+        <value>普通套房</value>
+        <money>$5000</money>
+    </room>
+
+       <room id="205">
+        <value>普通套房</value>
+        <money>$5000</money>
+    </room>
+	
+       <room id="206">
+        <value>普通套房</value>
+        <money>$5000</money>
+    </room>
+
+       <room id="207">
+        <value>普通套房</value>
+        <money>$5000</money>
+    </room>
+
+       <room id="208">
+        <value>普通套房</value>
+        <money>$5000</money>
+    </room>
+
+       <room id="209">
+        <value>普通套房</value>
+        <money>$5000</money>
+    </room>
+
+       <room id="301">
+        <value>高级套房</value>
+        <money>$8888</money>
+    </room>
+
+       <room id="302">
+        <value>高级套房</value>
+        <money>$8888</money>
+    </room>
+       <room id="303">
+        <value>高级套房</value>
+        <money>$8888</money>
+    </room>
+
+       <room id="402">
+        <value>总统套房</value>
+        <money>$28888</money>
+    </room>
+	
+	
+</rooms>

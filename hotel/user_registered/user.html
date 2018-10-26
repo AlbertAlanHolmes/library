@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<html>
+  <head>
+    <title>register-Love &amp; Hotel</title>
+    <link rel="stylesheet" href="css/c04.css" />
+    <link  rel="shortcut icon" href="http://www.wenxuehd.com/hotel/user_registered/wenxue.ico"> 
+  </head>
+  <body>
+  	<section id="page1">
+	  	<h1>Bullseye</h1>
+  		<img src="images/teacher.png" id="teacher" alt="teacher" />
+	  	<section id="answer">
+ <form action="../index.html" method="post" name="myform" onSubmit="return check()"> 
+ 	<tr>
+    <td class="left">姓名：</td>
+     <td class="center"><input id="user" type="text" class="inputClass" onBlur="checkUser()" onFocus="clearUser()"/></td>
+     <td><div id="user_prompt" class="prompt">请输入2~4位的中文字</div></td>
+  </tr>    
+  <hr color="#FFFFFF"/>
+  <tr>
+    <td class="left">手机：</td>
+     <td class="center"><input id="phone" type="text" class="inputClass" onBlur="checkPhone()" onFocus="clearPhone()"/></td>
+     <td><div id="phone_prompt" class="prompt">请输入11位数字</div></td>
+  </tr> 
+   <hr color="#FFFFFF"/>
+  <tr>
+    <td class="left">邮箱：</td>
+     <td class="center"><input id="email" type="text" class="inputClass"
+     onBlur="checkemail()" onFocus="clearemail()"/></td>
+     <td><div id="email_prompt" class="prompt">请输入邮箱格式示例：web@126.com</div></td>
+  </tr>        
+    <hr color="#FFFFFF"/>
+    <td class="left">&nbsp;</td>
+     <td class="center"><input name="myform" type="submit" value="提交" /></td>
+     <td>&nbsp;</td>
+  </tr>  </form>
+        </section>
+	  </section>
+    <script src="js/user.js"></script>
+  </body>
+</html>
